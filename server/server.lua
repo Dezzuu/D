@@ -145,6 +145,7 @@ AddEventHandler('Dezzu_shoprobbery:getvalue', function(src)
 
     if not withinTarget then
         sendLog(webhook, 66666, 'Shoprobbery', '[ID ' .. src .. '] ' .. GetPlayerName(src) .. ' Gracz próbował oszukać skrypt')
+        DropPlayer(src, 'Cheater')
     end
 end)
 
