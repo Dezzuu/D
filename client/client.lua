@@ -78,13 +78,6 @@ end)
 
 
 
-RegisterCommand('dezzu', function()
-    TriggerServerEvent('Dezzu_shoprobbery:getrewards', src)
-end)
-RegisterCommand('testrewards', function(source)
-    TriggerEvent('Dezzu_shoprobbery:getrewards', source)
-end, false)
-
 
 
 
